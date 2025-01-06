@@ -1,75 +1,65 @@
-# Nuxt Minimal Starter
+# Nuxt 3 Starter Template
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+这是一个基于Nuxt 3的快速启动模板，包含以下功能：
 
-## Setup
+- ⚡️ Nuxt 3
+- 🎨 UnoCSS
+- 🛠 TypeScript
+- ✅ ESLint
 
-Make sure to install dependencies:
+## 快速开始
+
+1. 克隆仓库
 
 ```bash
-# npm
-npm install
+git clone https://github.com/your-repo/nuxt-starter-template.git
+```
 
-# pnpm
+2. 安装依赖
+
+```bash
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+3. 启动开发服务器
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
 pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+## 项目结构
 
-Build the application for production:
+```
+.
+├── components/       # Vue组件
+├── composables/      # 组合式API
+├── layouts/          # 布局文件
+├── pages/            # 页面路由
+├── public/           # 静态资源
+└── server/           # API路由
+```
+
+## 开发指南
+
+- 添加新页面：在`pages`目录下创建`.vue`文件
+- 添加组件：在`components`目录下创建`.vue`文件
+- 添加API：在`server/api`目录下创建`.ts`文件
+
+## 部署
+
+### 静态站点生成
 
 ```bash
-# npm
-npm run build
+pnpm generate
+```
 
-# pnpm
+### Node.js服务器
+
+```bash
 pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+pnpm start
 ```
 
-Locally preview production build:
+## 许可证
 
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+MIT

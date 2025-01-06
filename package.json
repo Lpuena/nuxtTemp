@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "nuxt-starter-template",
   "type": "module",
   "private": true,
   "packageManager": "pnpm@9.7.1+sha1.b0ae55d11432e1af341998848fdc219a62f7623a",
