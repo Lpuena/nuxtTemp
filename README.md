@@ -9,21 +9,21 @@
 
 ## 快速开始
 
-1. 克隆仓库
+### 使用degit（推荐）
 
 ```bash
-git clone https://github.com/your-repo/nuxt-starter-template.git
+npx degit Lpuena/nuxtTemp my-nuxt-app
+cd my-nuxt-app
+pnpm install # If you don't have pnpm installed, run: npm install -g pnpm
+pnpm dev
 ```
 
-2. 安装依赖
+### 使用git clone
 
 ```bash
+git clone https://github.com/Lpuena/nuxtTemp.git my-nuxt-app
+cd my-nuxt-app
 pnpm install
-```
-
-3. 启动开发服务器
-
-```bash
 pnpm dev
 ```
 
