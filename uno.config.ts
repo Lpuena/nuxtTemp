@@ -10,14 +10,6 @@ import {
 } from 'unocss'
 
 export default defineConfig({
-  shortcuts: [
-    // ...
-  ],
-  theme: {
-    colors: {
-      // ...
-    },
-  },
   presets: [
     presetUno(),
     presetAttributify(),
@@ -29,6 +21,11 @@ export default defineConfig({
       },
     }),
   ],
+  theme: {
+    colors: {
+      // ...
+    },
+  },
   transformers: [
     transformerDirectives(),
     transformerVariantGroup(),

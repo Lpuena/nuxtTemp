@@ -1,9 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: [
-    '@nuxt/eslint',
-    '@unocss/nuxt',
-  ],
+  modules: ['@nuxt/eslint', '@unocss/nuxt', '@nuxtjs/color-mode'],
   css: [
     '@unocss/reset/tailwind.css',
   ],
@@ -11,6 +8,11 @@ export default defineNuxtConfig({
     config: {
       standalone: false,
     },
+  },
+  colorMode: {
+    classSuffix: '',
+    preference: 'system',
+    fallback: 'light',
   },
   app: {
     head: {
