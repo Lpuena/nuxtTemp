@@ -57,7 +57,6 @@ pnpm generate
 
 ```bash
 pnpm build
-pnpm start
 ```
 
 ## 许可证
